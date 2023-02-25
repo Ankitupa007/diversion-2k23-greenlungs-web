@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { NEXT_URL } from "file location"
 import { BsFillPinMapFill } from "react-icons/bs";
 import { CgOrganisation } from 'react-icons/cg'
 import { BsCalendarDay } from 'react-icons/bs'
