@@ -12,7 +12,8 @@ import { MdAlternateEmail } from 'react-icons/md'
 
 async function EventDetail() {
     // const { eventID } = searchParams
-    let events = await fetch(`process.env.NEXT_PUBLIC_FRONTEND_URL/api/database`, {
+    const URL = process.env.NEXT_PUBLIC_FRONTEND_URL || 'http://localhost:3000'
+    let events = await fetch(`${URL}/api/database`, {
         "cache": "no-store"
     })
     const data = await events.json()
@@ -49,8 +50,8 @@ async function EventDetail() {
                                 {/* <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Location</h3> */}
                                 <h2 class="text-gray-900 title-font text-lg font-medium">Location</h2>
                                 <p class="mt-1"><Link target="_blank" href={`https://maps.google.com/?q=${data.lat},${data.log}`} className="text-green-500">See on map</Link></p>
-                            </div>
-                        </div>
+                            </div >
+                        </div >
                         <div class="lg:w-1/3 md:w-1/2 p-4 w-1/2 ">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                 <CgOrganisation />
@@ -101,7 +102,7 @@ async function EventDetail() {
                                 <p class="mt-1">{data.tree_planted} trees planted till now</p>
                             </div>
                         </div>
-                    </div>
+                    </div >
                     <div className="flex flex-wrap w-full mb-20 mt-20 flex-col items-center text-center">
                         <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                             <MdOutlineDescription />
