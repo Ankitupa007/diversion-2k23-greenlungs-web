@@ -6,7 +6,7 @@ import { BsCalendarDay } from 'react-icons/bs'
 import { MdOutlineDescription } from 'react-icons/md'
 import { AiOutlineClockCircle } from 'react-icons/ai'
 import { MdPeople } from 'react-icons/md'
-import { TbTrees } from 'react-icons/Tb'
+import { TbTrees } from 'react-icons/tb'
 import { FiPhoneCall } from 'react-icons/fi'
 import { MdAlternateEmail } from 'react-icons/md'
 
