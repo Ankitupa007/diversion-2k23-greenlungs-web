@@ -12,7 +12,7 @@ import { MdAlternateEmail } from 'react-icons/md'
 
 async function EventDetail() {
     // const { eventID } = searchParams
-    let events = await fetch(`http://localhost:3000/api/database`, {
+    let events = await fetch(`process.env.NEXT_PUBLIC_FRONTEND_URL/api/database`, {
         "cache": "no-store"
     })
     const data = await events.json()
