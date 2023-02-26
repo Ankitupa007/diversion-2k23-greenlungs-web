@@ -146,7 +146,7 @@ async function EventDetail({ searchParams }) {
                                     <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Share this event</h2>
                                     <p class="leading-relaxed text-base">Invite people for plantation</p>
                                     <div className="py-5">
-                                        <Link href={`https:greenlung.co/events?eventID=${data.$id}`} class="text-green-500">Share</Link>
+                                        <Link href={`/events?eventID=${data.$id}`} class="text-green-500">Share</Link>
                                     </div>
                                 </div>
                             </div>
