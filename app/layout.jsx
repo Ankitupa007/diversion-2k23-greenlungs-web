@@ -1,6 +1,7 @@
 import Footer from './Footer'
 import './globals.css'
 import Header from './Header'
+import Head from 'next/head'
 
 export const metadata = {
   title: 'Greenlungs',
@@ -10,7 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </Head>
       <body>
         <Header />
         <div className="isolate ">

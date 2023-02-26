@@ -7,7 +7,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'dummyimage.com',
+        hostname: 'app.backend.live',
         // port: '',
         // pathname: '/account123/**',
       },
