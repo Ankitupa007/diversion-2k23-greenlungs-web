@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🟢 GreenLungs
 
-## Getting Started
+### 🌐 [Website](https://greenlungs.co)
+Our product is made with a vision of helping environmental NGOs & individuals by hosting and joining plantation events within your locality.
 
-First, run the development server:
+## 🚀 Core features 
+- Event creation and Joining based on the location
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- You can create your own plantation event and invite volunteers of your area to come and plant trees
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- You can also join any plantation event and give your support
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- You can know about the air quality of your locality within the app's Air Quality screen
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🕸 Challenges we ran into
+- Need of a HTML rich text editor for Android
+- Time hold us back from giving it some special features like plant recognition and disease Identification.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 📦 Technology we used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Android app - *Java, Kotlin, XML*
+- Web development - *NextJS, Tailwindcss*
+- For backaend - *Appwrite*
 
-## Learn More
+## 🛠 Deployments
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Website : [Click here 👉](https://greenlungs.co)
+- Android app : [Click here 👉](https://drive.google.com/file/d/1Nzlt4ss4cmq-7jcxx5tJDaSQgzVUS8S6/view?usp=sharing)
+- Event Link [Click here 👉](https://greenlungs.co/events?eventID=63fa8871adef8ed6e555)
