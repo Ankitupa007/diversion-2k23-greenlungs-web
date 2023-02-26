@@ -117,7 +117,7 @@ async function EventDetail({ searchParams }) {
                     <section class="text-gray-600 body-font">
                         <div class="container px-5 py-24 mx-auto">
                             <div class="flex flex-wrap -mx-4 -mb-10 text-center">
-                                <div class="sm:w-1/3 mb-10 px-4 w-full">
+                                {/* <div class="sm:w-1/3 mb-10 px-4 w-full">
                                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                         <FiPhoneCall />
                                     </div>
@@ -127,9 +127,9 @@ async function EventDetail({ searchParams }) {
                                         <Link href={`tel:${data.organizer.contact}`} class="text-green-500">Call</Link>
                                     </div>
 
-                                </div>
+                                </div> */}
 
-                                <div class="sm:w-1/3 mb-10 px-4 w-full">
+                                <div class="sm:w-1/2 mb-10 px-4 w-full">
                                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                         <MdAlternateEmail />
                                     </div>
@@ -139,7 +139,7 @@ async function EventDetail({ searchParams }) {
                                         <Link href={`mailto:${JSON.parse(data.organizer).email}`} class="text-green-500">Email</Link>
                                     </div>
                                 </div>
-                                <div class="sm:w-1/3 mb-10 px-4 w-full">
+                                <div class="sm:w-1/2 mb-10 px-4 w-full">
                                     <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                         <FiShare2 />
                                     </div>
