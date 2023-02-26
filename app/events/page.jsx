@@ -74,17 +74,6 @@ async function EventDetail({ searchParams }) {
                         </div>
                         <div className="lg:w-1/3 md:w-1/2 p-4 w-1/2">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
-                                <BsCalendarDay />
-                            </div>
-                            <div className="mt-2">
-                                {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> */}
-
-                                <h2 className="text-gray-900 title-font text-lg font-medium">Event Date & Time</h2>
-                                <p className="mt-1">{data.start_date} - {data.end_date}</p>
-                            </div>
-                        </div>
-                        <div className="lg:w-1/3 md:w-1/2 p-4 w-1/2">
-                            <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                 <MdPeople />
                             </div>
                             <div className="mt-2">
@@ -95,12 +84,34 @@ async function EventDetail({ searchParams }) {
                         </div>
                         <div className="lg:w-1/3 md:w-1/2 p-4 w-1/2">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
+                                <BsCalendarDay />
+                            </div>
+                            <div className="mt-2">
+                                {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> */}
+
+                                <h2 className="text-gray-900 title-font text-lg font-medium">Start date</h2>
+                                <p className="mt-1">{data.start_date} AM</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/3 md:w-1/2 p-4 w-1/2">
+                            <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
+                                <BsCalendarDay />
+                            </div>
+                            <div className="mt-2">
+                                {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> */}
+
+                                <h2 className="text-gray-900 title-font text-lg font-medium">End date</h2>
+                                <p className="mt-1">{data.end_date} PM</p>
+                            </div>
+                        </div>
+                        <div className="lg:w-1/3 md:w-1/2 p-4 w-1/2">
+                            <div className="w-10 h-10 inline-flex items-center justify-center rounded-full  text-green-500 mb-4 text-6xl">
                                 <TbTrees />
                             </div>
                             <div className="mt-2">
                                 {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> */}
-                                <h2 className="text-gray-900 title-font text-lg font-medium">Trees platnted</h2>
-                                <p className="mt-1">{data.tree_planted} trees planted till now</p>
+                                <h2 className="text-gray-900 title-font text-lg font-medium">PLantation Target</h2>
+                                <p className="mt-1">Plant {data.tree_planted} trees</p>
                             </div>
                         </div>
                     </div >

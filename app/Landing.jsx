@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 function Landing() {
     return (
         <div>
@@ -25,7 +26,9 @@ function Landing() {
                             <p class="mb-8 text-base leading-relaxed text-left text-gray-500">Uplift your volunteering towards environment and plants</p>
                             <div class="mt-0 lg:mt-6 max-w-7xl sm:flex">
                                 <div class="mt-3 rounded-lg sm:mt-0">
-                                    <button class="items-center block px-10 py-4 text-base font-medium text-center text-white transition duration-500 ease-in-out transform bg-green-600 rounded-xl hover:bg-grene-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Download app</button>
+                                    <Link href="https://drive.google.com/file/d/1Nzlt4ss4cmq-7jcxx5tJDaSQgzVUS8S6/view?usp=sharing" target="_blank" className="text-green-500">
+                                        Donwload App
+                                    </Link>
                                 </div>
 
                             </div>
