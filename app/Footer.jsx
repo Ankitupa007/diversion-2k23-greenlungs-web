@@ -5,7 +5,7 @@ export default function Footer() {
     const date = new Date().getFullYear()
     return (
         <footer className="text-gray-600 body-font absolute w-full z-20 mb-0">
-            <div className="flex flex-col justify-center px-3 py-16 mx-auto lg:max-w-7xl">
+            <div className="flex flex-col justify-center px-3 py-16 mx-auto lg:max-w-7xl lg:flex-row">
                 <div className="flex title-font font-medium items-center md:justify-center text-gray-900">
                     <Link href="/">
                         <Image src={"/logo/logo.svg"} width={150} height={60} />

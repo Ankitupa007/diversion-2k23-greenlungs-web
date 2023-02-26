@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
             </svg>
           </div>
           <main>
-            <div className="relative px-6 py-10 lg:px-8">
+            <div className="relative px-6 lg:px-8">
               {children}
               <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-20 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                 <svg
